@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #051a16, #111213c9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.steven {
+    border-radius: 2rem;
+   
+}
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.circle1, .circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(232, 248, 2, 0.8), rgba(179, 224, 17, 0.856));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+  
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 10%;
+}
+
+.link img {
+    height: 1rem;
+    width: 1rem;
+}
+
+.janemba{
+    height:6.2em;
+    width: 4.8em;
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    border-radius: .4rem;
+}
+
+.card img {
+    height:5.5em;
+    width: 3.8em;
+}
+
+.dashboard{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+}
+.games{
+    flex:2;
+}
+
+.link{
+    display: flex;
+    padding: 1rem 5rem;
+    margin: 2rem 0rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+}
+
+.pro {
+    background: linear-gradient(to right bottom, rgba(35, 83, 97, 0.288), rgba(124, 147, 163, 0.726));
+    border-radius: 1rem;
+    padding: 1.6rem;
+    position: relative;
+}
+
+.pro h2 {
+    width: 40%;
+}
+
+
+.status {
+    margin-top: 3rem;
+}
+
+.status input {
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(to left top, rgba(255,255,255,0.2), rgba(255,255,255,0.8));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+    justify-content: space-between;
+}
+
+.progress {
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0.979), rgba(26, 216, 8, 0.705));
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.progress::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(160, 20, 20);
+    position: absolute;
+}
+
+.percentage {
+    font-weight: bold;
+    background: linear-gradient(to right top, #240b0b, #881a07);
+    -webkit-background-clip: text;    /* Applies linear gradient to text */
+    -webkit-text-fill-color: transparent;   /* Applies linear gradient to text */
+} 
+
